@@ -1,0 +1,162 @@
+body {
+    background-image: url("_images/symphony_o.png");
+    background-repeat: repeat;	
+	}
+
+p {
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	line-height: 140%;
+	margin-top: -10px;
+	margin-left: 5px;
+	padding: 0px;
+	color: #333;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	padding-top: 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #FFF;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	padding-top: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #333;
+}
+
+h4 {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	padding-top: 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #FFF;
+}
+
+#header {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 45px;
+	background-color: #FFF;
+	border: 2px solid #DEDEDE;
+}
+
+#content {
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #FFF;
+	border: 2px solid #DEDEDE;
+	position: relative;
+	z-index: -1;
+}
+
+#topmenu {
+	width: 900px;
+	list-style-type: none;
+	z-index: 1
+}
+
+#logo img {
+	width: 175px;
+	margin: 0 auto;
+    z-index: 2;
+    display: inline;
+    margin-top: -102.5px;
+    margin-left: 360px;
+}
+
+#topmenu li {
+	background-color: #ffbf47;
+	line-height: 30px;
+	width: 16.7%;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	border: 2px solid #ffbf47;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+#topmenu li:nth-child(1) {
+	margin-right: 10px;
+}
+
+#topmenu li:nth-child(2) {
+	margin-right: 90px;
+}
+
+#topmenu li:nth-child(3) {
+	margin-left: 90px;
+	margin-right: 10px;
+}
+
+#topmenu a:link, a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#topmenu li:hover {
+	background-color: orange;
+	text-decoration: none;
+}
+
+.mainleft, .mainright {
+	width: 380px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.resume {
+	padding: 30px;
+}
+
+.headshot {
+	margin: 0 auto;
+}
+
+.photobox {
+	position: absolute;
+	z-index: -1;
+}
+
+.biobox {
+	width: 310px;
+	height: 190px;
+	float:right;
+	margin-right: 15px;
+	margin-top: 15px;
+	background-color: white ;
+	z-index: -1;
+	opacity: .8;
+	padding: 0 10px;
+}
+
+.homecaption {
+	width: 260px;
+	height: 100px;
+	float:left;
+	margin-left: 15px;
+	margin-top: 15px;
+	background-color: orange;
+	z-index: -1;
+	opacity: .8;
+	padding: 0 10px;
+}

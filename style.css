@@ -14,6 +14,13 @@ p {
 	color: #333;
 }
 
+h1 {
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: orange;
+}
+
 h2 {
 	font-size: 24px;
 	font-family: 'Raleway', sans-serif;
@@ -51,8 +58,9 @@ h5 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	padding-top: 0px;
-	margin-top: 0px;
+	margin-top: 15px;
 	margin-left: 0px;
+	margin-bottom: 5px;
 	color: orange;
 }
 
@@ -60,9 +68,13 @@ h6 {
 	font-size: 12px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	margin-top: -20px;
-	margin-bottom: -5px;
+	margin-top: 0px;
+	margin-bottom: -10px;
 	color: #666;
+}
+
+li {
+	list-style: square;
 }
 
 #header {
@@ -137,10 +149,22 @@ h6 {
 }
 
 .mainleft, .mainright {
-	width: 380px;
+	width: 400px;
 	float: left;
-	margin-left: 30px;
+	padding-left: 30px;
+	padding-right: 15px;
 	margin-top: 15px;
+}
+
+#contentresume {
+	width: 900px;
+	height: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #FFF;
+	border: 2px solid #DEDEDE;
+	position: relative;
+	z-index: -1;
 }
 
 .resume li {
@@ -183,3 +207,24 @@ h6 {
 	opacity: .8;
 	padding: 0 10px;
 }
+
+.contactform {
+	width: 400px;
+	float: left;
+	padding-left: 30px;
+	padding-right: 15px;
+	margin-top: 15px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	color: orange;
+}
+
+input, textarea {
+	width: 250px;
+	background-color: orange;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 130%;
+}
+
